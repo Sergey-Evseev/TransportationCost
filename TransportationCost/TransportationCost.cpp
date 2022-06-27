@@ -19,7 +19,7 @@ public:
 		this->wheels = wheels;
 		this->power = power;
 		this->load = load;
-		this->passengers = passengers;
+		this->passengers = passengers; 
 	}
 
 	int& getWheels() { return wheels; } //геттер колес
