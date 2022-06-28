@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <string>
 using namespace std;
 
 class Vehicle {
@@ -90,9 +91,7 @@ class Buggy : public Vehicle
 			cout << "Passengers = " << passengers << "\n\n";
 		}
 		//конец класса Buggy//
-
 };
-
 
 int main() {
 	setlocale(LC_ALL, "rus");
